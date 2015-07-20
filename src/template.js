@@ -4,24 +4,16 @@ define([
 ], function(loader, template){
 
 	return {
-		instantiate: instantiate
+		translate: translate
 	};
 
-	function instantiate(load){
+	function translate(load){
 		var source = load.source;
+		var fn = template(source);
 
-		return {
-			deps: [],
-			execute: execute
-		};
-
-		function execute(){
-			var fn = template(source);
-			return loader.newModule({
-				"default": fn,
-				__useDefault: true
-			});
-		}
+		return "def" + "ine([], function(){\n" +
+			"\treturn " + fn.source +
+			"\n});";
 	}
 
 });
