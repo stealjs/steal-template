@@ -1,6 +1,6 @@
 {
   "name": "steal-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use lodash.template to create template functions",
   "main": "template.js",
   "scripts": {
