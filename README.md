@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/stealjs/steal-template.svg?branch=master)](https://travis-ci.org/stealjs/steal-template)
 [![npm version](https://badge.fury.io/js/steal-template.svg)](http://badge.fury.io/js/steal-template)
 
-**steal-template** is a [http://stealjs.com](StealJS) plugin for creating template functions.  steal-template uses [lodash template](https://lodash.com/docs#template) behind the scenes.
+**steal-template** is a [StealJS](http://stealjs.com) plugin for creating template functions.  steal-template uses [lodash template](https://lodash.com/docs#template) behind the scenes.
 
 ## Install
 

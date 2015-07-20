@@ -1,7 +1,7 @@
 {
   "name": "steal-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use lodash.template to create template functions",
   "main": "template.js",
   "scripts": {
     "test": "testee test/test.html --browsers firefox --reporter Spec"
