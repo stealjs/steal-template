@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/stealjs/steal-template#readme",
   "dependencies": {
-    "lodash.template": "^3.6.2"
+    "lodash.template": "^4.4.0"
   },
   "devDependencies": {
-    "steal": "^0.10.5",
-    "steal-qunit": "0.0.4",
-    "testee": "^0.2.0"
+    "steal": "^0.16.43",
+    "steal-qunit": "0.1.4",
+    "testee": "^0.3.0"
   },
   "system": {
     "directories": {
